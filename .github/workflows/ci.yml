@@ -26,4 +26,5 @@ jobs:
 
     - name: Execute Automated Test Suites
       run: |
+        export PYTHONPATH=$PYTHONPATH:$(pwd)
         pytest
