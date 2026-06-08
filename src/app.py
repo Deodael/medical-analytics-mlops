@@ -4,7 +4,7 @@ import requests
 
 # 1. Dynamic API URL Resolution for Cloud/Local Environments
 # Fall back to localhost if no production URL environment variable is supplied
-BASE_URL = os.getenv("BACKEND_API_URL", "http://127.0.0.1:8000")
+BASE_URL = os.getenv("BACKEND_API_URL", "https://medical-analytics-mlops-production.up.railway.app")
 BACKEND_URL = f"{BASE_URL}/predict"
 
 # 2. Set up clean page configuration
