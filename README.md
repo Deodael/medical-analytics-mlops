@@ -32,5 +32,5 @@ The entire system operates as a fully decentralized, decoupled microservice clus
 * **Frontend Client (Streamlit Community Cloud):** Hosts the presentation layer. It manages client-side states, captures real-time biometric indicators, and handles asynchronous HTTPS networking to ship data payloads across the web.
 * **API Gateway & Inference Container (Railway):** Automatically intercepts pushes to `main`, compiles your isolated `src/Dockerfile.backend` image, and spins up a public container. It processes inbound JSON metrics through your serialized `medical_model.pkl` pipeline to deliver prediction results in milliseconds.
 
-🚀 **[Access the Live Interactive App](https://deodael-medical-analytics-mlops-srcapp-u4m797.streamlit.app/)**
+🚀 **[Access the Live Interactive App](https://medical-analytics-mlops-4lxy4tpzmb7jxqjhq6wtpy.streamlit.app/)**
 🐳 **[Explore the Live FastAPI Gateway](https://medical-analytics-mlops-production.up.railway.app/docs)** *(Append `/docs` or `/redoc` to view your interactive Swagger OpenAPI schema!)*
